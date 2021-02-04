@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=How
+comment0.text=\r\n\ Display\ instructions\ how\ to\ play\ the\ game.\r\n\ \r\n\ Trigger\:\ \r\n\ Cover\ class\ |\ Method\:\ loadInstructions();\r\n\ \r\n\ Functions\ of\ class\ Lose\:\r\n\ -\ Remove\ instance\ after\ creation\ by\ checking\ if\ mouse\ has\ clicked\ the\ object\r\n\ -\ Set\ world\ to\ SeaWorld\ to\ play\ the\ game\r\n\ -\ Stops\ introduction\ background\ music\r\n\ \r\n\ References\:\ \r\n\ -\ The\ "this"\ parameter\ checks\ mouse\ click\ of\ the\ current/given\ object\ \ \r\n\ -\ Reference\ for\ Greenfoot.mouseClicked(this)\ -\ https\://www.greenfoot.org/topics/3136\ \r\n\ -\ Reference\ for\ removing\ objects\ -\ https\://www.greenfoot.org/topics/4330\r\n\ -\ Reference\ for\ changing\ worlds\ -\ https\://www.youtube.com/watch?v\=dyJfY3oai-c\ \ \r\n\ -\ Reference\ for\ calling\ and\ using\ static\ variables\ -\ https\://www.greenfoot.org/topics/4327\r\n\ \r\n\ Please\ see\ README.TXT\ file\ in\ this\ same\ directory\ for\ enhancements\ and\ more\ details.\r\n\ \r\n\ @author\ Jaydel\ Bujawe\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ How\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ startGame()
+numComments=3

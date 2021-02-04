@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Shark
+comment0.text=\r\n\ Shark\ -\ Predators\ of\ Nemo.\r\n\ \r\n\ Functions\ of\ class\ Shark\:\r\n\ -\ Configure\ sharks\ movement\r\n\ -\ Speeding\ up\ shark\ movement\ according\ to\ planktonsEaten\r\n\ -\ Set\ game\ over\ if\ shark\ eats\ Nemo\r\n\ \r\n\ References\:\r\n\ -\ Reference\ for\ calling\ and\ using\ static\ variables\ -\ https\://www.greenfoot.org/topics/4327\r\n\ -\ Reference\ for\ changing\ worlds\ -\ https\://www.youtube.com/watch?v\=dyJfY3oai-c\ \ \ \r\n\ \r\n\ Please\ see\ README.TXT\ file\ in\ this\ same\ directory\ for\ enhancements\ and\ more\ details.\r\n\ \r\n\ @author\ Jaydel\ Bujawe\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Shark()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Shark.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Shark\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ sharkMove()
+comment4.params=planktonsEaten
+comment4.target=void\ fastSharkMove(int)
+comment5.params=
+comment5.target=void\ gameOver()
+numComments=6

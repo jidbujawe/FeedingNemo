@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cover
+comment0.text=\r\n\ Title\ Page\ and\ all\ attributions\ listed\ here.\r\n\ \r\n\ Trigger\:\ \r\n\ Start\ of\ game\ \r\n\ Win\ class\ |\ Method\:\ winRestart();\r\n\ Lose\ class\ |\ Method\:\ loseRestart();\r\n\ \r\n\ Functions\ of\ class\ Cover\:\r\n\ -\ Display\ title\ and\ other\ information\r\n\ -\ Play\ start\ background\ music\r\n\ -\ Load\ instructions\ on\ how\ to\ play\r\n\ \r\n\ References\:\r\n\ -\ The\ "this"\ parameter\ checks\ mouse\ click\ of\ the\ current/given\ object\r\n\ -\ Reference\ for\ Greenfoot.mouseClicked(this)\ -\ https\://www.greenfoot.org/topics/3136\ \r\n\ -\ Static\ variables\ allows\ variable\ to\ be\ accessed\ from\ different\ classes\ -\r\n\ \ -\ by\ typing\ fromWorld.variableName\ and\ will\ only\ contain\ one\ value\ throughout\ classes\r\n\ -\ Reference\ for\ calling\ and\ using\ static\ variables\ -\ https\://www.greenfoot.org/topics/4327\r\n\ -\ Reference\ for\ controlling\ audio\ options\ -\ https\://www.greenfoot.org/topics/2808\r\n\ \r\n\ Please\ see\ README.TXT\ file\ in\ this\ same\ directory\ for\ enhancements\ and\ more\ details.\r\n\ \r\n\ List\ of\ attributions\:\ \r\n\ Graphics\:\r\n\ Clown\ Fish\ (By\ http\://icons8.com)\r\n\ http\://www.iconarchive.com/show/windows-8-icons-by-icons8/Animals-Clown-Fish-icon.html\ \ \ \r\n\ \r\n\ Shark\ (By\ Iconic)\r\n\ https\://thenounproject.com/term/shark/703164/\r\n\ \r\n\ Plankton\ (By\ dear_theophilus)\r\n\ http\://www.clipartlogo.com/image/zooplankton-silhouette_111818.html\r\n\r\n\ Finding\ Nemo\ Logo\r\n\ http\://logonoid.com/finding-nemo-logo/\r\n\ \r\n\ Finding\ Nemo\ Font\ (Personal\ use)\r\n\ http\://www.fontspace.com/filmfonts/findet-nemo\r\n\ \r\n\ Sound\ Effects\:\ \r\n\ All\ sound\ effects\ from\:\r\n\ https\://www.zapsplat.com/\r\n\ \r\n\ @author\ Jaydel\ Bujawe\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Cover()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cover.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Cover\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ loadInstructions()
+comment4.params=
+comment4.target=void\ createHow()
+comment5.params=
+comment5.target=void\ playStartSound()
+numComments=6

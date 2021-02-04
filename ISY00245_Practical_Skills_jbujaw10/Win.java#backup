@@ -1,0 +1,94 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Display winning screen.
+ * 
+ * Trigger: 
+ * Nemo class | Method: gameWon();
+ * 
+ * Functions of class Win:
+ * - Display of score and time when game is won
+ * - Play winner background music
+ * - Reset values of planktonsEaten and gameTimer to 0
+ * - Set world to Cover to restart game
+ *
+ * Please see README.TXT file in this same directory for enhancements and more details.
+ * 
+ * @author Jaydel Bujawe 
+ * @version 1.0
+ */
+public class Win extends World
+{
+    public GreenfootSound winSound; // create instance of GreenfootSound
+
+    /**
+     * Constructor for objects of class Win.
+     * Accepts parameters of score and time integers
+     */
+    public Win(int timeScore, int planktonScore, int )
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1);
+
+        // method call to play winSound         
+        playWinSound();
+
+        // display plankton and time (act cycles) scores        
+        showText("Score: " + planktonScore, 80, 40);
+        showText("Time: " + timeScore, 200, 40);
+        
+        
+        // check if previous score is beaten
+        if (timeScore > previousScore)
+        {
+            showText("You have a new high score! ", 380, 40);
+        }
+    }
+
+    /**
+     * Act - do whatever the Win wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act()
+    {
+        // method call to restart game
+        winRestart();    
+    }
+
+    public void winRestart()
+    {            
+        // check if user clicked on screen (null)
+        // The "null" parameter checks mouse click of any object without reference or anywhere in the world   
+        // Reference for Greenfoot.mouseClicked(null) - https://www.greenfoot.org/topics/5276/15    
+        if (Greenfoot.mouseClicked(null)) 
+        {
+            // reset values
+            // Reference for calling and using static variables - https://www.greenfoot.org/topics/4327
+            Nemo.planktonsEaten = 0;
+            SeaWorld.gameTimer = 0;
+
+            // set world to Cover() to restart game
+            // Reference for changing worlds - https://www.youtube.com/watch?v=dyJfY3oai-c            
+            Greenfoot.setWorld(new Cover());
+
+            // stop winSound when changing world            
+            winSound.stop();            
+        }
+    }
+
+    public void playWinSound()
+    {
+        // initialising value of sound variable
+        // Reference for controlling audio options - https://www.greenfoot.org/topics/2808
+        winSound = new GreenfootSound("winner.mp3"); 
+
+        // set volume
+        winSound.setVolume(50);
+
+        // play winSound once
+        winSound.play();   
+
+        // stop underwaterSound from playing
+        SeaWorld.underwaterSound.stop(); 
+    }
+}

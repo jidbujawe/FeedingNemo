@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Win
+comment0.text=\r\n\ Display\ winning\ screen.\r\n\ \r\n\ Trigger\:\ \r\n\ Nemo\ class\ |\ Method\:\ gameWon();\r\n\ \r\n\ Functions\ of\ class\ Win\:\r\n\ -\ Display\ of\ score\ and\ time\ when\ game\ is\ won\r\n\ -\ Play\ winner\ background\ music\r\n\ -\ Reset\ values\ of\ planktonsEaten\ and\ gameTimer\ to\ 0\r\n\ -\ Set\ world\ to\ Cover\ to\ restart\ game\r\n\ \r\n\ References\:\r\n\ -\ The\ "null"\ parameter\ checks\ mouse\ click\ of\ any\ object\ without\ reference\ or\ anywhere\ in\ the\ world\r\n\ -\ Reference\ for\ Greenfoot.mouseClicked(null)\ -\ https\://www.greenfoot.org/topics/5276/15\ \ \ \ \r\n\ -\ Reference\ for\ changing\ worlds\ -\ https\://www.youtube.com/watch?v\=dyJfY3oai-c\ \r\n\ -\ Reference\ for\ calling\ and\ using\ static\ variables\ -\ https\://www.greenfoot.org/topics/4327\r\n\ -\ Reference\ for\ controlling\ audio\ options\ -\ https\://www.greenfoot.org/topics/2808\r\n\r\n\ Please\ see\ README.TXT\ file\ in\ this\ same\ directory\ for\ enhancements\ and\ more\ details.\r\n\ \r\n\ @author\ Jaydel\ Bujawe\ \r\n\ @version\ 1.0\r\n
+comment1.params=timeScore\ planktonScore
+comment1.target=Win(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Win.\r\n\ Accepts\ parameters\ of\ score\ and\ time\ integers\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Win\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ winRestart()
+comment4.params=
+comment4.target=void\ setValues()
+comment5.params=
+comment5.target=void\ playWinSound()
+numComments=6

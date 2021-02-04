@@ -1,0 +1,35 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class How here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class How extends Actor
+{
+    /**
+     * Act - do whatever the How wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        // Add your action code here.
+        checkKeyDown();        
+    } 
+    
+    public void checkKeyDown()
+    {
+        if (Greenfoot.isKeyDown("enter"))
+        {
+            // remove instructions
+            getWorld().removeObject(this);  
+            
+            // start game
+            Greenfoot.setWorld(new SeaWorld());
+            
+            // stop starter sound            
+            Cover.playStarterSound.stop(); 
+        }
+    } 
+}

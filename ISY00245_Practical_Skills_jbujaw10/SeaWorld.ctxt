@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SeaWorld
+comment0.text=\r\n\ Main\ world\ of\ the\ game.\r\n\ \r\n\ Trigger\:\ \r\n\ How\ class\ |\ Method\:\ startGame();\r\n\ \r\n\ Functions\ of\ class\ SeaWorld\:\r\n\ -\ Prepare\ actors\ in\ world\r\n\ -\ Configure\ game\ timer\ and\ displaying\ of\ score\ during\ play\r\n\ -\ Play\ background\ music\ during\ play\r\n\ \r\n\ References\:\r\n\ -\ Static\ variables\ allows\ variable\ to\ be\ accessed\ from\ different\ classes\ -\r\n\ \ -\ by\ typing\ fromWorld.variableName\ and\ will\ only\ contain\ one\ value\ throughout\ classes\ \r\n\ -\ Reference\ for\ calling\ and\ using\ static\ variables\ -\ https\://www.greenfoot.org/topics/4327\r\n\ -\ Reference\ for\ controlling\ audio\ options\ -\ https\://www.greenfoot.org/topics/2808\r\n\ \r\n\ Please\ see\ README.TXT\ file\ in\ this\ same\ directory\ for\ enhancements\ and\ more\ details.\r\n\r\n\ @author\ Jaydel\ Bujawe\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=SeaWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ SeaWorld.\r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ SeaWorld\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ displayScore()
+comment5.params=
+comment5.target=int\ previousTimeCheck()
+comment6.params=
+comment6.target=void\ playUnderwaterSound()
+numComments=7

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Plankton
+comment0.text=\r\n\ Plankton\ -\ Food\ to\ eat\ for\ Nemo.\r\n\ \r\n\ Functions\ of\ class\ Plankton\:\r\n\ -\ Configure\ planktons\ random\ movement\r\n\ -\ Configure\ animation\ timer\ to\ animate\ plankton\r\n\ \r\n\ References\:\r\n\ -\ Reference\ for\ animation\ concept\ -\ https\://www.greenfoot.org/topics/4751\r\n\ \r\n\ Please\ see\ README.TXT\ file\ in\ this\ same\ directory\ for\ enhancements\ and\ more\ details.\r\n\ \r\n\ @author\ Jaydel\ Bujawe\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Plankton()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Plankton.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Plankton\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ randomTurn()
+comment4.params=
+comment4.target=void\ animatePlankton()
+numComments=5

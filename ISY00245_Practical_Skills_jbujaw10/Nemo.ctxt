@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Nemo
+comment0.text=\r\n\ Nemo\ -\ Player\ of\ the\ game.\r\n\ \r\n\ Functions\ of\ class\ Nemo\:\r\n\ -\ Set\ player\ controls\ using\ keys\r\n\ -\ Configure\ nemo\ eating\ planktons\r\n\ -\ Add\ sharks\ to\ intensify\ game\r\n\ -\ Check\ if\ game\ is\ won\r\n\ \r\n\ References\:\r\n\ -\ Static\ variables\ allows\ variable\ to\ be\ accessed\ from\ different\ classes\ -\r\n\ \ -\ by\ typing\ fromWorld.variableName\ and\ will\ only\ contain\ one\ value\ throughout\ classes\ \r\n\ -\ Reference\ for\ calling\ and\ using\ static\ variables\ -\ https\://www.greenfoot.org/topics/4327\r\n\ -\ Reference\ for\ changing\ worlds\ -\ https\://www.youtube.com/watch?v\=dyJfY3oai-c\ \ \ \ \r\n\ \r\n\ Please\ see\ README.TXT\ file\ in\ this\ same\ directory\ for\ enhancements\ and\ more\ details.\r\n\ \r\n\ @author\ Jaydel\ Bujawe\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Nemo\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ setKeysControl()
+comment3.params=
+comment3.target=void\ eatPlankton()
+comment4.params=
+comment4.target=void\ checkAddShark()
+comment5.params=
+comment5.target=void\ addShark()
+comment6.params=
+comment6.target=void\ gameWon()
+numComments=7
